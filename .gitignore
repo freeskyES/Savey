@@ -1,0 +1,39 @@
+# Xcode
+DerivedData/
+*.xcworkspace
+*.xccheckout
+*.xcuserstate
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+*.xcodeproj/xcuserdata/
+
+# Swift Package Manager
+.build/
+Packages/
+.swiftpm/
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/
+
+# Fastlane
+fastlane/report.xml
+fastlane/screenshots
+fastlane/test_output
+
+# Archives
+*.xcarchive
+
+# Personal Settings
+*.hmap
+*.ipa
+*.dsym
+*.orig
+*.swp
+.DS_Store
+
+# Environment
+.env

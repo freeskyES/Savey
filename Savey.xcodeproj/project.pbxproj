@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C0E5893F2DB1415400ECBF15 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C0E5893E2DB1414600ECBF15 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		C0E589222DB139AB00ECBF15 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		C0E5890C2DB139AA00ECBF15 /* Savey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Savey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E589212DB139AB00ECBF15 /* SaveyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaveyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E5892B2DB139AB00ECBF15 /* SaveyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaveyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0E5893E2DB1414600ECBF15 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		C0E589032DB139AA00ECBF15 = {
 			isa = PBXGroup;
 			children = (
+				C0E5893E2DB1414600ECBF15 /* .gitignore */,
 				C0E5890E2DB139AA00ECBF15 /* Savey */,
 				C0E589242DB139AB00ECBF15 /* SaveyTests */,
 				C0E5892E2DB139AB00ECBF15 /* SaveyUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0E5893F2DB1415400ECBF15 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
